@@ -19,7 +19,8 @@
 - **실제와 똑같은 미리보기** — mpv 등 재생기가 쓰는 libass로 자막을 그립니다. 설치된 글꼴을 한글 이름으로도 찾습니다
 - **영상 위 비주얼 편집** — 위치, 이동, 회전, 크기, 클립, 그리기(채우기 색 포함), 가이드 격자로 영상 속 평면에 맞추는 **평면 원근 도구**
 - **빠른 태그 도구** — 글꼴, 색상·불투명도, 테두리·그림자·흐림, 회전·기울이기, 페이드, 정렬을 클릭 몇 번으로
-- **자유로운 패널 배치** — 영상·자막 목록·자막 설정·자막 내용·타임라인·태그·시간 이동 패널을 원하는 자리에
+- **자유로운 패널 배치** — 영상·자막 목록·자막 설정·자막 내용·타임라인·태그·시간 이동 패널을 원하는 자리에. 배치를 저장해 두고 불러오며, 창 크기·위치와 패널 크기를 다음 실행 때도 그대로
+- **번역** — 번역 서비스·AI(DeepL, Google, Azure, Papago, OpenAI, Claude, Gemini, 키 없이 쓰는 무료 서비스)로 자동 번역하거나, 줄 단위로 복사해 원하는 번역기에 붙여 넣고 결과를 다시 붙여 넣는 방식으로 번역. 원문을 바꾸거나 원문 아래에 번역 줄로 추가
 - **타임라인** — 오디오 파형 자동 표시, 블록 높이 조절, 드래그로 타이밍 편집, 실시간 시간 이동 패널
 - **자막과 영상 자동 연결** — 같은 이름의 영상(`name.ko.ass` → `name.mkv`)이나 전에 함께 쓴 영상을 자동으로 불러옵니다
 - **다양한 형식** — ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV 등 열기·저장·일괄 변환, Blu-ray/DVD 이미지 자막은 문자 인식(OCR)으로 가져오기
@@ -45,7 +46,8 @@ Edit position, rotation, clips and drawings with the mouse right on the video, a
 - **True-to-life preview** — subtitles are rendered by libass, the renderer mpv and other players use, with your installed fonts
 - **Visual editing on the video** — position, movement, rotation, scale, clips, drawings (with fill colour) and a **plane perspective tool** that fits text to a surface in the video with a guide grid
 - **Quick tag tools** — font, colours and alpha, border/shadow/blur, rotation/shear, fade and alignment in a few clicks
-- **Custom panel layout** — place the video, subtitle list, line settings, line text, timeline, tags and time-shift panels where you like
+- **Custom panel layout** — place the video, subtitle list, line settings, line text, timeline, tags and time-shift panels where you like; save and load layouts, and the window size, position and panel sizes are kept for the next launch
+- **Translation** — translate automatically with translation services and AI (DeepL, Google, Azure, Papago, OpenAI, Claude, Gemini, and free services that need no key), or copy lines to any translator and paste the result back; replace the original or add the translation as new lines below it
 - **Timeline** — automatic audio waveform, adjustable block height, drag to retime, live time-shift panel
 - **Subtitle ↔ video pairing** — opening a subtitle also loads its video: one with the same name (`name.en.ass` → `name.mkv`) or the one you used with it before
 - **Many formats** — open, save and batch-convert ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV and more; import Blu-ray/DVD image subtitles with OCR
