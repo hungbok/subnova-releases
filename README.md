@@ -23,6 +23,9 @@
 - **번역** — 번역 서비스·AI(DeepL, Google, Azure, Papago, OpenAI, Claude, Gemini, 키 없이 쓰는 무료 서비스)로 자동 번역하거나, 줄 단위로 복사해 원하는 번역기에 붙여 넣고 결과를 다시 붙여 넣는 방식으로 번역. 원문을 바꾸거나 원문 아래에 번역 줄로 추가
 - **타임라인** — 오디오 파형 자동 표시, 블록 높이 조절, 드래그로 타이밍 편집, 실시간 시간 이동 패널
 - **자막과 영상 자동 연결** — 같은 이름의 영상(`name.ko.ass` → `name.mkv`)이나 전에 함께 쓴 영상을 자동으로 불러옵니다
+- **거의 모든 영상·오디오 지원** — ffmpeg 내장. AVI, TS, WMV, FLV와 AC3·DTS 오디오 등 플레이어가 못 여는 파일은 재생용으로 자동 변환하고, 몇 시간짜리 영상도 파형을 빠르게 표시합니다
+- **영상 내장 자막 불러오기** — 영상을 먼저 열면 안에 든 자막을 자동으로 불러오고, 여러 개면 고를 수 있습니다
+- **가독성 자동 최적화** — 너무 긴 줄·지나친 줄바꿈을 고르게 정리하고, 긴 자막은 길이에 비례한 시간으로 나눕니다
 - **다양한 형식** — ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV 등 열기·저장·일괄 변환, Blu-ray/DVD 이미지 자막은 문자 인식(OCR)으로 가져오기
 - **싱크 도구** — 시간 이동, 프레임 레이트 변환, 속도 변경, 두 지점 동기화, 다른 자막을 기준으로 동기화
 - 다크/라이트 테마, 여러 창, 자동 업데이트, 파일 연결, 한국어·English·日本語·简体中文·繁體中文
@@ -50,6 +53,9 @@ Edit position, rotation, clips and drawings with the mouse right on the video, a
 - **Translation** — translate automatically with translation services and AI (DeepL, Google, Azure, Papago, OpenAI, Claude, Gemini, and free services that need no key), or copy lines to any translator and paste the result back; replace the original or add the translation as new lines below it
 - **Timeline** — automatic audio waveform, adjustable block height, drag to retime, live time-shift panel
 - **Subtitle ↔ video pairing** — opening a subtitle also loads its video: one with the same name (`name.en.ass` → `name.mkv`) or the one you used with it before
+- **Almost any video or audio** — ffmpeg is built in: files the player cannot open (AVI, TS, WMV, FLV, AC3/DTS audio, …) are converted for playback automatically, and the waveform of hours-long videos loads quickly
+- **Subtitles inside videos** — open a video first and its subtitles load automatically; choose one when there are several
+- **Readability optimizer** — evens out lines that are too long or broken too often, and splits long subtitles with time in proportion to their length
 - **Many formats** — open, save and batch-convert ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV and more; import Blu-ray/DVD image subtitles with OCR
 - **Sync tools** — shift, frame-rate conversion, speed change, two-point sync, sync to another subtitle
 - Dark/light themes, multiple windows, auto-update, file associations; Korean, English, Japanese, Simplified and Traditional Chinese
