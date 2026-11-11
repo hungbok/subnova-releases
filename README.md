@@ -26,7 +26,7 @@
 - **거의 모든 영상·오디오 지원** — ffmpeg 내장. AVI, TS, WMV, FLV와 AC3·DTS 오디오 등 플레이어가 못 여는 파일은 재생용으로 자동 변환하고, 몇 시간짜리 영상도 파형을 빠르게 표시합니다
 - **영상 내장 자막 불러오기** — 영상을 먼저 열면 안에 든 자막을 자동으로 불러오고, 여러 개면 고를 수 있습니다
 - **가독성 자동 최적화** — 너무 긴 줄·지나친 줄바꿈을 고르게 정리하고, 긴 자막은 길이에 비례한 시간으로 나눕니다
-- **다양한 형식** — ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV 등 열기·저장·일괄 변환, Blu-ray/DVD 이미지 자막은 문자 인식(OCR)으로 가져오기
+- **다양한 형식** — ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV 등 열기·저장·일괄 변환, Blu-ray/DVD 이미지 자막은 문자 인식(OCR)으로 가져오기(일본어 루비·세로쓰기 지원)
 - **싱크 도구** — 시간 이동, 프레임 레이트 변환, 속도 변경, 두 지점 동기화, 다른 자막을 기준으로 동기화
 - 다크/라이트 테마, 여러 창, 자동 업데이트, 파일 연결, 한국어·English·日本語·简体中文·繁體中文
 
@@ -56,7 +56,7 @@ Edit position, rotation, clips and drawings with the mouse right on the video, a
 - **Almost any video or audio** — ffmpeg is built in: files the player cannot open (AVI, TS, WMV, FLV, AC3/DTS audio, …) are converted for playback automatically, and the waveform of hours-long videos loads quickly
 - **Subtitles inside videos** — open a video first and its subtitles load automatically; choose one when there are several
 - **Readability optimizer** — evens out lines that are too long or broken too often, and splits long subtitles with time in proportion to their length
-- **Many formats** — open, save and batch-convert ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV and more; import Blu-ray/DVD image subtitles with OCR
+- **Many formats** — open, save and batch-convert ASS/SSA, SRT, WebVTT, SAMI, TTML, SBV, MicroDVD, SCC, EBU STL, JSON/CSV and more; import Blu-ray/DVD image subtitles with OCR (Japanese ruby and vertical text supported)
 - **Sync tools** — shift, frame-rate conversion, speed change, two-point sync, sync to another subtitle
 - Dark/light themes, multiple windows, auto-update, file associations; Korean, English, Japanese, Simplified and Traditional Chinese
 
